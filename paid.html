@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="By Muhammad Arslan ">
+<title>File for Activation</title>
+<style type="text/css">
+  		.main_bg{
+  			background: url('https://www.wallpapers4u.org/wp-content/uploads/abstraction_rays_lines_bubbles_circles_47132_1920x1080.jpg') no-repeat center center fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 100%;
+        }
+        h2{
+            font-size: 48px;
+            padding: .5em 1px;
+            color: #05063d;
+        }
+        h3{
+            font-size: 36px;
+            padding: .5em 1px;
+        }
+        a{
+            font-size: 22px;
+            font-weight: bold;
+            border-radius: 50px;
+            background-color: #050e5e;
+            color: aliceblue;
+            letter-spacing: 1px;
+            padding: 6px 12px;
+            text-decoration: none;
+        }
+        .paid2{
+            display: none;
+            background-color: #fff;
+            height: fit-content;
+            padding: 1em;
+            width: 300px;
+            margin: 10px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 6px rgb(3, 3, 102);
+        }
+
+  	</style>
+</head>
+<body class="main_bg">
+<section>
+<center>
+<div class="paid">
+    <h1>You have to pay 10$ to download this </h1>
+    <br>
+<a class="pay">Pay Now</a>
+</div>
+</center>
+<center>
+    <div class="paid2">
+        <h1>😃This Is a Joke you Can Download For free😁</h1>
+        <br>
+    <a href="Aracti.rar" download="">Download</a>
+    </div>
+    </center>
+</section>
+<script>
+    pay = document.querySelector('.pay')
+    pay.addEventListener('click',()=>{
+        document.querySelector(".paid2").style.display="block"
+    })
+</script>  
+</body>
+</html>
